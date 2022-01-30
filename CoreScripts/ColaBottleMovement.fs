@@ -21,7 +21,7 @@ type ColaBottleMovement() as this =
 
     let processInput () =
         if Input.GetKey KeyCode.Space then
-            _rigidBody.AddRelativeForce (Vector3.up * _thrustSpeed * Time.deltaTime)
+            _rigidBody.AddRelativeForce (Vector3.down * _thrustSpeed * Time.deltaTime)
 
         if Input.GetKey KeyCode.A then
             applyRotation Vector3.forward
