@@ -6,7 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Include="Hellower.fs" />
+    <Compile Include="ColaBottleMovement.fs" />
   </ItemGroup>
 
   <ItemGroup>
